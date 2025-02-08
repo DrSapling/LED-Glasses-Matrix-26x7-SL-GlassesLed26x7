@@ -20,7 +20,7 @@ Want to see it in action? Check out these [examples](#2-examples).
 ## General overview
 GlassesLed26x7 is circuit board used in LED Glasses like [these](https://aliexpress.com/item/33043651338.html) from Aliexpress or [these](https://aliexpress.com/item/33043651338.html).
 
-<img src="README_resources/image.png" width="30%" />
+<img src="README_resources/image.png" width="50%" />
 
 ![alt text](<README_resources/bare circuitboard.jpg>)
 It is a **26x7 LED matrix** designed using [**Charlieplexing**](https://en.wikipedia.org/wiki/Charlieplexing)
@@ -72,6 +72,8 @@ of displaying bitmap.
 - [Another one](</reverse engineering/stage 3.2 - proper async image displaying/async_image/async_image.ino>) using asyncronous method.
 
 I also built a [bitmap generator](</reverse engineering/stage 3.1 - image test/image generator.py>) for ease of development.
+
+<img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_badge_red.png" href="https://ko-fi.com/DrSapling" width=20%>
 
 ---
 ## TODO
