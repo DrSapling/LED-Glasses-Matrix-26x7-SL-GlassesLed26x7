@@ -1,4 +1,4 @@
-# GlassesLed26x7 - LED Glasses Matrix
+# SL-GlassesLed26x7 - LED Glasses Matrix
 
 Reverse-engineered **26x7 LED matrix driver** for LED glasses, allowing custom animations using a microcontroler.
 
@@ -27,11 +27,11 @@ It is a **26x7 LED matrix** designed using [**Charlieplexing**](https://en.wikip
 
 The design uses a HC899S003A, but I removed it and used an ESP32 for convenience.
 
+<img src="README_resources/chip.jpg" width="30%"/>
+
 > [!WARNING]
 > You have to **drive the LEDs** with around **3.3V !!!**
 > That is why I used an ESP32, what i had on hand.
-
-<img src="README_resources/chip.jpg" width="30%"/>
 
 
 
@@ -49,7 +49,6 @@ I have numbered the pins in order (not the chip pin numbers or ESP pin numbers).
 - BTN was originally used for button
 
 The board includes 5 pins for flashing firmware to the original HC899S003A chip.  
-If you manage to reverse-engineer it, let me know, and I'll link your work!
 
 (If you manage to do it I can link you)
 
