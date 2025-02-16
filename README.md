@@ -72,7 +72,7 @@ of displaying bitmap.
 
 I also built a [bitmap generator](</reverse engineering/stage 3.1 - image test/image generator.py>) for ease of development.
 
-[<img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_badge_red.png" width="20%"/>]([https://github.com/](https://ko-fi.com/DrSapling))
+<a href="https://ko-fi.com/DrSapling"><img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_badge_red.png" width="20%"/></a>
 
 ---
 ## TODO
