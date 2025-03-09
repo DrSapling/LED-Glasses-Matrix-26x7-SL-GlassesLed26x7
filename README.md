@@ -54,7 +54,7 @@ The board includes 5 pins for flashing firmware to the original HC899S003A chip.
 
 The pins connect LEDs into **13 sections of 14 LEDs**
 
-![alt text](image.png)
+![alt text](README_resources/matrix.png)
 
 Whenever a pin for digital low would be the same as digital high it is swapped for 15 (for odd section number) and 16 (for even section number)
 
