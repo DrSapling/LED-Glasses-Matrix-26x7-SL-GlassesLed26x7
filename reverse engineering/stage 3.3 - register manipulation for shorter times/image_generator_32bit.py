@@ -18,13 +18,28 @@ def update_bitmap():
             (x_start, 4), (x_start+1, 4), (x_start, 5), (x_start+1, 5),
             (x_start, 6), (x_start+1, 6)
         ]
-        bit_values = ["1" if button_colors.get(pos, "black") in ["white", "yellow"] else "0" for pos in bit_sequence]
-        chunk_bits = f"0b0000{bit_values[0]}{bit_values[2]}{bit_values[3]}0{bit_values[7]}{bit_values[8]}{bit_values[6]}0{bit_values[12]}{bit_values[10]}{bit_values[9]}00{bit_values[1]}{bit_values[5]}{bit_values[4]}000000{bit_values[11]}{bit_values[13]}0000"
-        if "1" in bit_values:
+        #bit_values = ["1" if button_colors.get(pos, "black") in ["white", "yellow"] else "0" for pos in bit_sequence]
+        bit_values = []  # Store 1s and 0s
+        bit_even = "0"
+        bit_odd = "0"
+        for pos in range(14):
+            if button_colors.get(bit_sequence[pos], "black") in ["white", "yellow"]:
+                if chunk_index!=pos:
+                    bit_values.append("1")
+                else:
+                    bit_values.append("0")
+                    if chunk_index%2==0:
+                        bit_even = "1"
+                        bit_odd = "0"
+                    else:
+                        bit_even = "0"
+                        bit_odd = "1"
+            else:
+                bit_values.append("0")
+
+        chunk_bits = f"0b0000{bit_values[0]}{bit_values[2]}{bit_values[3]}0{bit_values[7]}{bit_values[8]}{bit_values[6]}0{bit_values[12]}{bit_values[10]}{bit_values[9]}{bit_even}{bit_odd}{bit_values[1]}{bit_values[5]}{bit_values[4]}000000{bit_values[11]}{bit_values[13]}0000"
+        if "1" in bit_values or bit_odd == "1" or bit_even == "1":
             chunks[chunk_index] = chunk_bits
-    
-    while chunks and chunks[-1] == "0b00000000000000000000000000000000":
-        chunks.pop()
     
     bitmap_text = "const unsigned short bitmap_NAME[13] PROGMEM = {\n" + ",\n".join(chunks) + "\n};"
     output_text.config(state=tk.NORMAL)
