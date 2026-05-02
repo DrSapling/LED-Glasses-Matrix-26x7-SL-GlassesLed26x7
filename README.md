@@ -1,3 +1,14 @@
+> [!WARNING]
+> This project's development is halted
+>
+> I consider this project done, as I did the reverse-enginnering part.
+> 
+> The used matrix by its design, effectively gives at most 1/13 PWM brightness, because it can not physically get gright enough for my use case I move on to new custom design.
+> 
+> ###### Ideation in progress (will link to the new project when I start it)
+
+---
+
 # SL-GlassesLed26x7 - LED Glasses Matrix
 
 Reverse-engineered **26x7 LED matrix driver** for LED glasses, allowing custom animations using a microcontroler.
