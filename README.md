@@ -65,7 +65,7 @@ I have numbered the pins in order (not the chip pin numbers or ESP pin numbers).
 
 The board includes 5 pins for flashing firmware to the original HC899S003A chip.  
 
-> [!INFO]
+> [!NOTE]
 > [@nickblt](https://github.com/nickblt) managed to merge some projects, and **successfully flashed original chip**.
 > [nickblt/flashion-glasses](https://github.com/nickblt/flashion-glasses) - Check out his project.
 
