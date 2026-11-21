@@ -1,4 +1,4 @@
-> [!INFO]
+> [!NOTE]
 > [@nickblt](https://github.com/nickblt) managed to merge some projects, and **successfully flashed original chip**.
 > [nickblt/flashion-glasses](https://github.com/nickblt/flashion-glasses) - Check out his project for utilizing the full original board without hardware hacking like I tried to do here
 
