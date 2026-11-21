@@ -3,7 +3,7 @@
 >
 > I consider this project done, as I did the reverse-enginnering part.
 > 
-> The used matrix by its design, effectively gives at most 1/13 PWM brightness, because it can not physically get gright enough for my use case I move on to new custom design.
+> ###### The used matrix by its design, effectively gives at most 1/13 PWM brightness. Because it can not physically get bright enough for my use case I have to move on to new custom design.
 > 
 > ###### Ideation in progress (will link to the new project when I start it)
 
@@ -42,7 +42,7 @@ The design uses a HC899S003A, but I removed it and used an ESP32 for convenience
 
 > [!WARNING]
 > You have to **drive the LEDs** with around **3.3V !!!**
-> That is why I used an ESP32, what i had on hand.
+> That is why I used an ESP32 and what I had on hand.
 
 
 
