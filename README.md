@@ -1,3 +1,7 @@
+> [!INFO]
+> [@nickblt](https://github.com/nickblt) managed to merge some projects, and **successfully flashed original chip**.
+> [nickblt/flashion-glasses](https://github.com/nickblt/flashion-glasses) - Check out his project for utilizing the full original board without hardware hacking like I tried to do here
+
 > [!WARNING]
 > This project's development is halted
 >
@@ -61,7 +65,9 @@ I have numbered the pins in order (not the chip pin numbers or ESP pin numbers).
 
 The board includes 5 pins for flashing firmware to the original HC899S003A chip.  
 
-(If you manage to do it I can link you)
+> [!INFO]
+> [@nickblt](https://github.com/nickblt) managed to merge some projects, and **successfully flashed original chip**.
+> [nickblt/flashion-glasses](https://github.com/nickblt/flashion-glasses) - Check out his project.
 
 The pins connect LEDs into **13 sections of 14 LEDs**
 
@@ -86,8 +92,6 @@ I also built a [bitmap generator](</reverse engineering/stage 3.1 - image test/i
 <!--a href="https://ko-fi.com/DrSapling"><img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_badge_red.png" width="20%"/></a-->
 
 ---
-## TODO
-Driving the matrix using register manipulation for longer glow time, thus brighter image.
 
 ## License
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)** - see the [LICENSE](LICENSE) file for details.
